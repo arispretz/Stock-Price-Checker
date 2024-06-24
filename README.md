@@ -1,6 +1,6 @@
 # Stock-Price-Checker
 
-This is one of my projects in the way to achieve "Information Security" certification at freeCodeCamp.org. It was designed using Nodejs, Javascript, html, css, MongoDB and Helmetjs.
+This is one of my projects in the way to achieve "Information Security" certification at freeCodeCamp.org. It was designed using Nodejs, Javascript, html, css, Express, MongoDB and Helmetjs.
 Since all reliable stock price APIs require an API key, we've built a workaround. Use https://stock-price-checker-proxy.freecodecamp.rocks/ to get up-to-date stock price information without needing to sign up for your own key.
 SET NODE_ENV to test without quotes and set DB to your MongoDB connection string
 Complete the project in routes/api.js or by creating a handler/controller
