@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d3eebd;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Add some responsive styles */
+@media screen and (max-width: 768px) {
+  #stock-input {
+    width: 80%;
+  }
+}
+
+.p-50 {
+  margin: 50px;
+}
+
+#testui {
+  margin-left: 5%;
+}
+
+input[type="text"] {
+  width: 100px;
+}
+
+.m-50 {
+  margin: 50px;
+}
+
+.mt-200 {
+  margin-top: 200px;
+}
+
+footer {
+  margin-bottom: 50px;
+  color: fuchsia;
+}
